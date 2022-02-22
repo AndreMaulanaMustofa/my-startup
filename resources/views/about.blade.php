@@ -7,14 +7,15 @@
     <title>About | Play Tailwind</title>
     <link
       rel="shortcut icon"
-      href="images/favicon.png"
+      href="{{asset('assets/images/logo/favicon.svg')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="{{mix('css/app.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
-    <script src="js/wow.min.js"></script>
-    <script src="{{mix('js/app.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
     <script>
       new WOW().init();
     </script>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,15 +9,15 @@
     </title>
     <link
       rel="shortcut icon"
-      href="images/favicon.png"
+      href="{{asset('images/logo/favicon.svg')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
-    <script src="js/wow.min.js"></script>
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
     <script>
       new WOW().init();
     </script>
@@ -6533,7 +6533,7 @@
 
     <!-- ====== All Scripts -->
 
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/main.js')}}"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");

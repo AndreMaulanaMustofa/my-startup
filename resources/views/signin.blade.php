@@ -7,14 +7,15 @@
     <title>Sign In | Play Tailwind</title>
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.png"
+      href="{{asset('assets/images/logo/favicon.svg')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="{{mix('css/app.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
-    <script src="assets/js/wow.min.js"></script>
-    <script src="{{mix('js/app.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
     <script>
       new WOW().init();
     </script>
@@ -39,7 +40,7 @@
           <div class="px-4 w-60 max-w-full">
             <a href="/" class="navbar-logo w-full block py-5">
               <img
-                src="assets/images/logo/logo-white.svg"
+                src="images/logo/logo-white.svg"
                 alt="logo"
                 class="w-full header-logo"
               />
@@ -519,7 +520,7 @@
                   href="javascript:void(0)"
                   class="inline-block max-w-[160px] mx-auto"
                 >
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
+                  <img src="images/logo/logo.svg" alt="logo" />
                 </a>
               </div>
               <form>
