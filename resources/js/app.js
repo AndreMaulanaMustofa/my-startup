@@ -1,3 +1,3 @@
 require('./bootstrap');
-require('./main.js');
+require('../../public/js/main.js');
 require('./wow.min.js');
