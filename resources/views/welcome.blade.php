@@ -364,7 +364,7 @@
             </div>
             <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
               <a
-                href="signin.html"
+                href="/signin"
                 class="
                   text-base
                   font-medium
@@ -378,7 +378,7 @@
                 Sign In
               </a>
               <a
-                href="signup.blade.php"
+                href="/signup"
                 class="
                   text-base
                   font-medium

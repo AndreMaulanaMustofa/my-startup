@@ -7,13 +7,13 @@
     <title>Sign In | Play Tailwind</title>
     <link
       rel="shortcut icon"
-      href="images/favicon.png"
+      href="assets/images/favicon.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="{{mix('css/app.css')}}" />
 
     <!-- ==== WOW JS ==== -->
-    <script src="js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <script src="{{mix('js/app.js')}}"></script>
     <script>
       new WOW().init();
@@ -37,9 +37,9 @@
       <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
           <div class="px-4 w-60 max-w-full">
-            <a href="index.html" class="navbar-logo w-full block py-5">
+            <a href="/" class="navbar-logo w-full block py-5">
               <img
-                src="images/logo/logo-white.svg"
+                src="assets/images/logo/logo-white.svg"
                 alt="logo"
                 class="w-full header-logo"
               />
@@ -96,7 +96,7 @@
                 <ul class="blcok lg:flex">
                   <li class="relative group">
                     <a
-                      href="#home"
+                      href="/"
                       class="
                         ud-menu-scroll
                         text-base text-dark
@@ -252,7 +252,7 @@
                       "
                     >
                       <a
-                        href="about.html"
+                        href="/about"
                         class="
                           block
                           text-sm text-body-color
@@ -265,7 +265,7 @@
                         About Page
                       </a>
                       <a
-                        href="pricing.html"
+                        href="/pricing"
                         class="
                           block
                           text-sm text-body-color
@@ -278,7 +278,7 @@
                         Pricing Page
                       </a>
                       <a
-                        href="contact.html"
+                        href="/contact"
                         class="
                           block
                           text-sm text-body-color
@@ -291,7 +291,7 @@
                         Contact Page
                       </a>
                       <a
-                        href="blog-grids.html"
+                        href="/blog-grids"
                         class="
                           block
                           text-sm text-body-color
@@ -304,7 +304,7 @@
                         Blog Grid Page
                       </a>
                       <a
-                        href="blog-details.html"
+                        href="/blog-details"
                         class="
                           block
                           text-sm text-body-color
@@ -318,7 +318,7 @@
                       </a>
 
                       <a
-                        href="signup.html"
+                        href="/signup"
                         class="
                           block
                           text-sm text-body-color
@@ -331,7 +331,7 @@
                         Sign Up Page
                       </a>
                       <a
-                        href="signin.html"
+                        href="/signin"
                         class="
                           block
                           text-sm text-body-color
@@ -344,7 +344,7 @@
                         Sign In Page
                       </a>
                       <a
-                        href="404.html"
+                        href="/404"
                         class="
                           block
                           text-sm text-body-color
@@ -363,7 +363,7 @@
             </div>
             <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
               <a
-                href="signin.html"
+                href="/signin"
                 class="
                   text-base
                   font-medium
@@ -377,7 +377,7 @@
                 Sign In
               </a>
               <a
-                href="signup.html"
+                href="/signup"
                 class="
                   text-base
                   font-medium
@@ -519,7 +519,7 @@
                   href="javascript:void(0)"
                   class="inline-block max-w-[160px] mx-auto"
                 >
-                  <img src="images/logo/logo.svg" alt="logo" />
+                  <img src="assets/images/logo/logo.svg" alt="logo" />
                 </a>
               </div>
               <form>
@@ -688,7 +688,7 @@
               </a>
               <p class="text-base text-[#adadad]">
                 Not a member yet?
-                <a href="signup.html" class="text-primary hover:underline">
+                <a href="signup" class="text-primary hover:underline">
                   Sign Up
                 </a>
               </p>
@@ -932,7 +932,7 @@
                 class="inline-block max-w-[160px] mb-6"
               >
                 <img
-                  src="images/logo/logo-white.svg"
+                  src="assets/images/logo/logo-white.svg"
                   alt="logo"
                   class="max-w-full"
                 />
@@ -1221,7 +1221,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/tailgrids.svg"
+                      src="assets/images/footer/brands/tailgrids.svg"
                       alt="tailgrids"
                     />
                   </a>
@@ -1241,7 +1241,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/ayroui.svg"
+                      src="assets/images/footer/brands/ayroui.svg"
                       alt="ayroui"
                     />
                   </a>
@@ -1261,7 +1261,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/ecommerce-html.svg"
+                      src="assets/images/footer/brands/ecommerce-html.svg"
                       alt="ecommerce-html"
                     />
                   </a>
@@ -1281,7 +1281,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/graygrids.svg"
+                      src="assets/images/footer/brands/graygrids.svg"
                       alt="graygrids"
                     />
                   </a>
@@ -1301,7 +1301,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/lineicons.svg"
+                      src="assets/images/footer/brands/lineicons.svg"
                       alt="lineicons"
                     />
                   </a>
@@ -1321,7 +1321,7 @@
                     "
                   >
                     <img
-                      src="images/footer/brands/uideck.svg"
+                      src="assets/images/footer/brands/uideck.svg"
                       alt="uideck"
                     />
                   </a>
@@ -1388,11 +1388,11 @@
 
       <div>
         <span class="absolute left-0 top-0 z-[-1]">
-          <img src="images/footer/shape-1.svg" alt="" />
+          <img src="assets/images/footer/shape-1.svg" alt="" />
         </span>
 
         <span class="absolute bottom-0 right-0 z-[-1]">
-          <img src="images/footer/shape-3.svg" alt="" />
+          <img src="assets/images/footer/shape-3.svg" alt="" />
         </span>
 
         <span class="absolute top-0 right-0 z-[-1]">
