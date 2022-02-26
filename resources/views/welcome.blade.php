@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
+
     <script src="{{asset('js/wow.min.js')}}"></script>
     <script>
       new WOW().init();
